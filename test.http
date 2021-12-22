@@ -1,0 +1,38 @@
+@url = http://localhost:3000/api
+
+### 
+# get các sản phẩm new arrivals
+GET {{url}}/categories/1/products?_page=1&_limit=3
+
+### 
+# get các sản phẩm đồ nam
+GET {{url}}/categories/2/products?name_like=áo
+### 
+# get các sản phẩm đồ nữ
+GET {{url}}/categories/3/products
+### 
+# get các sản phẩm đồ đôi
+GET {{url}}/categories/4/products
+### 
+# get các sản phẩm áo khoác
+GET {{url}}/categories/5/products
+### 
+# get các sản phẩm phụ kiện
+GET {{url}}/categories/6/products
+###
+# get các sản phẩm sales
+GET {{url}}/products?isSale=true
+
+###
+# get slider
+GET {{url}}/slides
+###
+# get chinhsach 
+GET {{url}}/chinhsach
+###
+# get thong tin
+GET {{url}}/thongtin
+###
+# get faq
+GET {{url}}/faq
+
